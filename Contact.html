@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>JDM Ltd - Consultancy & Training</title>
+		<link rel="stylesheet" type="text/css" href="oldstyle.css">
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<meta name="description" content="Contact JDM - premium providers of Training and Consultancy for Business Systems Analysis, Project and Programme Office Management. Proven track record in systems implementation and project recovery.">
+		<meta name="keywords" content="project management,programme office, project consultancy,project recovery, business systems analysis, training, consultancy , systems analyst, business analyst"> 
+		<!--  Character sets, Page decriptions and meta tags for SEO -->
+	</head>
+<!-- This is a the header below -->
+	<body>
+	<div id = "header">
+		<h1>JDM Ltd - Consultancy & Training Services</h1>
+		<div id = "nav">
+		<ul>
+			<li><a href = "Homepage.html">Home</a></li>
+			<li><a href = "Consultancy.html">Consultancy Services</a></li>
+			<li><a href = "Training.html">Training Services</a></li>
+			<li><a href = "Contact.html">Contact Us</a></li>
+		</ul>
+		</div>
+		<!-- Added the nav links for the 4 pages -->
+	</div>
+	<div id="content">
+	<div id='formdiv'>
+	<H2>Please enter your details and query in this form which will be responded to within 24 hours:</H2>
+
+<form name='myform' action='http://www.example.com/query.php' method='GET'>
+
+<fieldset>
+  <legend><strong>Your Details</strong></legend>
+    <div class='input'>
+      <label for='firstname' class='title'>First Name: </label>
+	  <input type='text' value='' name='firstname' required='required'> 
+	</div>
+	<div class='input'>
+	  <label for='lastname' class='title'>Last Name: </label>
+	  <input type='text' value='' name='lastname' required='required'> 
+    </div>
+	<div class='input'>
+	  <label for='email' class='title'>Email: </label>
+	  <input type='email' value='' name='email'> 
+	</div>
+		<!-- adding drop down box with label-->
+		<div class="select">
+	<label for='Enquirytype' class='title'>Enquiry Type:</label>
+	
+	<select name="Enquirytype">
+		<option value="New Project">New Project</option>
+		<option value="Existing Project">Existing Project</option>
+		<option value="Training">Training</option>
+		<option value="General Enquiry">General Enquiry</option>
+	</select>
+	<!-- adding a text box-->
+	</div>
+	 <div class="textarea">
+	 <label for='additionaldetails' class='title'>Additional Details:</label>
+	 <textarea name="description" rows="15" cols="150">Additional Details:
+	 </textarea>
+	 </div>
+	 
+	  <div class="Submit">
+	 <input type="submit" value="Submit">
+	 </div>
+</fieldset>
+
+</form>
+		
+	<div class= "columnA">
+			<h2><strong>Here is how to find us!</strong></h2>
+			<p><strong> JDM Ltd.,The Big House, Newtown Glen,Tramore,County Waterford, Republic of Ireland.</strong></p>
+			<p><strong>Telephone 052 999 9999</strong></p>
+			<!-- to add column for address-->
+	
+		</div>
+<!-- adding a map-->
+<div id="map" style="width:97%;height:200px"></div>
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(52.145649, -7.169754), 
+    zoom: 15
+  }
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+<footer>
+	JDM Ltd Registered Office 54 Newtown Glen Tramore Co Waterford. Company Number 12345. Copyright (c) 2016
+	</footer>
+	</div>
+
+	</div>
+	
+	</body>

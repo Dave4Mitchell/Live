@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>JDM Ltd - Consultancy & Training</title>
+		<link rel="stylesheet" type="text/css" href="oldstyle.css">
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<meta name="description" content="Contact JDM - premium providers of Training and Consultancy for Business Systems Analysis, Project and Programme Office Management. Proven track record in systems implementation and project recovery.">
+		<meta name="keywords" content="project management,programme office, project consultancy,project recovery, business systems analysis, training, consultancy , systems analyst, business analyst"> 
+		<!--  Character sets, Page decriptions and meta tags for SEO -->
+	</head>
+<!-- This is a the header below -->
+	<body>
+	<div id = "header">
+		<h1>JDM Ltd - Consultancy & Training Services</h1>
+		<div id = "nav">
+		<ul>
+			<li><a href = "Homepage.html">Home</a></li>
+			<li><a href = "Consultancy.html">Consultancy Services</a></li>
+			<li><a href = "Training.html">Training Services</a></li>
+			<li><a href = "Contact.html">Contact Us</a></li>
+		</ul>
+		</div>
+		<!-- Added the nav links for the 4 pages -->
+	</div>
+	<!-- Set up contact form below -->

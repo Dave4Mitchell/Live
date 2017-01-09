@@ -1,0 +1,295 @@
+/* setting headers 1 to 4 to use accross all pages */
+H1{color: red;
+background-color: black;
+font-family:"arial",arial,sans-serif;
+font-size: 60px;
+}
+h1.pos_top
+{
+position:relative;
+top:-25px;
+}
+H2{color: red;
+background-color: black;
+font-family:"arial",arial,sans-serif;
+font-size: 35px;}
+h2.pos_top
+
+H3{color: red;
+background-color: black;
+font-family:"arial",arial,sans-serif;
+font-size: 25px;}
+h3.pos_top
+
+H4{color: red;
+background-color: black;
+font-family:"arial",arial,sans-serif;
+font-size: 15px;}
+h4.pos_top
+
+body {
+background-color:#ff0000;
+font-family:"arial",arial,sans-serif;
+}
+ul { text-align: left}
+/* style of the body*/
+body {
+    font-family: Arial, Arial, sans-serif;
+    color: #665544;
+    text-align: center;
+    width: 98%;
+    margin: 0 auto;
+	background-color:#eae5e1;
+}
+/* setting up the menu selection at the top and associated colours*/
+#nav {
+    background-color: black;
+    padding: 0.25em 0;
+    margin: 1%;
+	font-family:"arial",arial,sans-serif;
+	font-size:20px
+	
+}
+#nav li {
+    display: inline;
+    padding: 0.25em;
+		
+}
+#nav li a {
+				color: red}
+/* menu  hover selection changes*/
+#nav li a:hover, nav li a.current {
+				color: blue}
+#content {
+    
+	width: 96%;
+	margin:1%
+}
+/* setting up the imgage of 4 people on the homepage*/
+#image {
+    margin: 1%;
+    height: 40em;
+    margin-bottom: 1em;
+    background-color: #efefef;
+    padding: 0.5em;
+	width: 70%;
+	overflow:hidden;
+	float: left;
+	
+}
+/* use Disc bullets for Training page */
+ul.disc {list-style-type:disc;}
+
+
+/* Make 2 columns equal on homepage */
+.column1of3, .column2of3{
+    width: 48%;
+    height: 27em;
+    float: left;
+    margin:.5%;
+    padding: .25%;
+    background-color: #efefef;
+	}
+/* Make  column 3 - useful links display on Homepage and Contact page */
+.column3of3{
+	width: 23.5%;
+    height: 40em;
+    float: left;
+    margin: 1%;
+    padding: .5%;
+	background-color: #efefef;
+	}
+
+/* Make 2 columns equal on consultancy page */
+.column5of6, .column6of6{
+    width: 48%;
+    height: 45em;
+    float: left;
+    margin: .5%;
+    padding: .25%;
+    background-color: #efefef;
+}
+	
+/* styling 2 video boxes */
+#video1 {
+	width: 48%;
+    height: 35em;
+    float: left;
+    margin: .5%;
+    padding: .25%;
+    background-color: #efefef;
+}
+#video2 {
+	 width: 48%;
+    height: 35em;
+    float: left;
+    margin: .5%;
+    padding: .25%;
+    background-color: #efefef;
+}
+/* styling footer old way */
+
+#footer{
+	overflow:auto;
+	clear:both;
+	width:96%;
+	height:5em;
+	margin:1%;
+}
+/* styling footer HTML5 used on Home and Training pages only */
+footer{
+	overflow:auto;
+	clear:both;
+	width:96%;
+	height:5em;
+	margin:1%;
+}
+/* styling contact form below */
+#formdiv{
+	background-color: #efefef;
+	width: 100%;
+    height: 47em;
+    float: left;
+    margin: 0.5%;
+	padding: 0.25%
+}
+fieldset {
+width: 1000x;
+border: 1px solid #8B6646;
+border-radius: 1px;
+padding: 20px;
+text-align: left;}
+
+legend {
+background-color:#cccccc;
+border: 1px solid #8B6646;
+border-radius: 10px;
+padding: 10px 20px;
+text-align: left;
+text-transform: uppercase;}
+
+/* alignment of boxes */
+.input {
+border-bottom: 1px solid #efefef;
+margin: 10px;
+padding-bottom: 10px;
+width: 300px;}
+.title {
+float: left;
+width: 100px;
+text-align: right;
+padding-right: 10px;}
+
+.select {
+border-bottom: 1px solid #efefef;
+margin: 10px;
+padding-bottom: 10px;
+width: 300px;}
+
+
+.textarea {
+border-bottom: 1px solid #efefef;
+margin: 20px;
+padding-bottom: 10px;
+
+width: 300px;}
+
+
+/*atyling the map box below*/
+	
+#map {
+width: 600px;
+border: 1px solid #8B6646;
+border-radius: 1px;
+padding: 20px;
+text-align: left;}
+	
+	/*This has the address for the business on the contact page */
+
+.columnA {
+	width: 100%;
+    height: 10em;
+    float: left;
+    margin: 0.0%;
+    padding: 0.0%;
+    background-color: #efefef;
+}
+/*Training Services page- add column and image */
+.column7 {
+	width: 46%;
+    height: 52em;
+    float: left;
+    margin: 1%;
+    padding: .5em;
+    background-color: #efefef;
+
+		
+}
+#image1 {
+    margin: 0%;
+    height: 18em;
+    background-color: #efefef;
+    width: 100%;
+	overflow:hidden;
+	float: left;
+}
+/*Training Schedule Table*/
+
+#tablediv{
+width: 95%;
+background-color: #efefef;
+margin: .5%;
+padding: .5em;
+
+float:left;
+}
+table {
+border-spacing: 0px;
+}
+
+th, td {
+padding: 5px 30px 5px 10px;
+border-spacing: 0px;
+font-size: 100%;
+margin: 0px;}
+th, td {
+text-align: left;
+background-color:  #efefef;
+border-top: 1px solid #f1f8fe;
+border-bottom: 1px solid #cbd2d8;
+border-right: 1px solid #cbd2d8;}
+
+tr.even td, tr.even th {
+background-color: #e8eff5;}
+
+
+tr.head th {
+color:red;
+background-color:black;
+border-bottom: 2px solid #547ca0;
+border-right: 1px solid #749abe;
+border-top: 1px solid #90b4d6;
+text-align: center;
+text-shadow: -1px -1px 1px #666666;
+letter-spacing: 0.15em;}
+
+td {
+text-shadow: 1px 1px 1px #ffffff;}
+
+tr.even td, tr.even th {
+background-color: #e8eff5;}
+tr.head th:first-child {
+border-top-left-radius: 15px;}
+tr.head th:last-child {
+border-top-right-radius: 15px;}
+
+
+/*put in section for our address*/
+
+section {
+	width: 20%;
+    height: 25em;
+    float: left;
+    margin: 1%;
+    padding: .5%;
+	background-color: #efefef;}	
